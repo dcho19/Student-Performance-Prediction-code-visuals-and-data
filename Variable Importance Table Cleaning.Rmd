@@ -1,0 +1,39 @@
+---
+title: "Variable Importance Table"
+author: "David Cho"
+date: "10/16/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(knitr)
+library(tidyverse)
+library(kableExtra)
+
+var_imp_table <- read_csv("VariableImportance1.csv")
+var_imp_table %>% 
+  kable() %>% 
+  column_spec(1:5, border_left = T, border_right = T) %>% 
+  kable_styling()
+
+var_imp_table2 <- read_csv("VariableImportance2.csv")
+var_imp_table2 %>% 
+  kable() %>% 
+  column_spec(1:5, border_left = T, border_right = T) %>% 
+  kable_styling()
+
+
+
+acc_kappa_table <- read_csv("ModelAccuracyKappa.csv")
+acc_kappa_table %>% 
+  kable() %>% 
+  column_spec(1:5, border_left = T, border_right = T) %>% 
+  kable_styling()
+```
+
+
+

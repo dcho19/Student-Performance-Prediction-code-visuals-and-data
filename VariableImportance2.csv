@@ -1,0 +1,19 @@
+"","Distinction","Fail","Pass","Withdrawn"
+"highest_educationHE Qualification",20.18,15.69,3.79,15.79
+"highest_educationLower Than A Level",26.26,21.87,18.75,12.87
+"highest_educationNo Formal quals",7.42,19.34,11.91,7.89
+"highest_educationPost Graduate Qualification",30.35,12.95,7.73,13.42
+"imd_band0-10%",16.62,20.55,9.71,0
+"imd_band10-20",14.72,14.06,9.62,4.97
+"imd_band20-30%",12.13,13.84,6.97,11.33
+"imd_band30-40%",14.04,10.71,11.15,10.05
+"imd_band40-50%",12.92,7.82,12.57,10.52
+"imd_band50-60%",11.48,13.47,10.12,5.88
+"imd_band60-70%",12.74,10.56,11.59,10.71
+"imd_band70-80%",14.5,13.97,9.26,10.27
+"imd_band80-90%",14.88,12,9.97,7.65
+"imd_band90-100%",13.66,13.28,11.36,11.57
+"studied_credits",15.65,30.86,36.74,39.53
+"age_band35-55",18.14,10.71,8.57,20.14
+"age_band55<=",11.52,9.12,6.56,15.7
+"total_click",38.41,65.79,100,78.64
